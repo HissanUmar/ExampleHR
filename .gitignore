@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Python virtual environment
+.venv/
+
+# Build/runtime outputs
+dist/
+coverage/
+data/
+
+# Environment and OS/editor artifacts
+.env
+.DS_Store
+
+# Test/report generated artifacts
+test-results.json
+test-results.txt
+coverage-summary.txt

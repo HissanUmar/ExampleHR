@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "sourceMap": false,
+    "ignoreDeprecations": "6.0"
+  },
+  "exclude": ["test", "**/*.spec.ts", "**/*.e2e-spec.ts"]
+}

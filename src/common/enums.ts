@@ -1,0 +1,27 @@
+export enum RequestStatus {
+  PENDING = 'PENDING',
+  APPROVED = 'APPROVED',
+  REJECTED = 'REJECTED',
+  CANCELLED = 'CANCELLED'
+}
+
+export enum SyncEventType {
+  BATCH = 'BATCH',
+  REALTIME = 'REALTIME',
+  RECONCILE = 'RECONCILE'
+}
+
+export enum SyncEventStatus {
+  RUNNING = 'RUNNING',
+  SUCCESS = 'SUCCESS',
+  PARTIAL = 'PARTIAL',
+  FAILED = 'FAILED'
+}
+
+export enum AuditSource {
+  REQUEST = 'REQUEST',
+  BATCH_SYNC = 'BATCH_SYNC',
+  REALTIME_SYNC = 'REALTIME_SYNC',
+  MANUAL = 'MANUAL',
+  RECONCILE = 'RECONCILE'
+}

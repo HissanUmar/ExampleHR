@@ -1,17 +1,37 @@
 # Dependencies
 node_modules/
+/node_modules
 
 # Python virtual environment
 .venv/
 
 # Build/runtime outputs
 dist/
+/dist
+/build
+/tmp
 coverage/
 data/
 
 # Environment and OS/editor artifacts
 .env
+.env.development
+.env.test
+.env.production
 .DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Temp directories
+.temp
+.tmp
 
 # Test/report generated artifacts
 test-results.json
